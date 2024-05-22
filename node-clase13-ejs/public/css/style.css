@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+}
+main section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+}
+
+article {
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px gray;
+}
