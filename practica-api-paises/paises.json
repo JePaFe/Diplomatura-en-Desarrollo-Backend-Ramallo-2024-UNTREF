@@ -1,0 +1,51 @@
+[
+  { "pais": "España", "idioma": ["Español"], "continente": "Europa" },
+  { "pais": "Estados Unidos", "idioma": ["Inglés"], "continente": "América" },
+  { "pais": "China", "idioma": ["Chino"], "continente": "Asia" },
+  { "pais": "Argentina", "idioma": ["Español"], "continente": "América" },
+  { "pais": "Australia", "idioma": ["Inglés"], "continente": "Oceanía" },
+  {
+    "pais": "Canadá",
+    "idioma": ["Inglés", "Francés"],
+    "continente": "América"
+  },
+  { "pais": "Francia", "idioma": ["Francés"], "continente": "Europa" },
+  { "pais": "México", "idioma": ["Español"], "continente": "América" },
+  { "pais": "Brasil", "idioma": ["Portugués"], "continente": "América" },
+  { "pais": "India", "idioma": ["Hindi", "Inglés"], "continente": "Asia" },
+  { "pais": "Rusia", "idioma": ["Ruso"], "continente": "Europa y Asia" },
+  { "pais": "Egipto", "idioma": ["Árabe"], "continente": "África" },
+  {
+    "pais": "Sudáfrica",
+    "idioma": ["Afrikáans", "Inglés", "Otros"],
+    "continente": "África"
+  },
+  {
+    "pais": "Canadá",
+    "idioma": ["Inglés", "Francés"],
+    "continente": "América"
+  },
+  { "pais": "Alemania", "idioma": ["Alemán"], "continente": "Europa" },
+  {
+    "pais": "Nueva Zelanda",
+    "idioma": ["Inglés", "Maorí"],
+    "continente": "Oceanía"
+  },
+  { "pais": "Corea del Sur", "idioma": ["Coreano"], "continente": "Asia" },
+  { "pais": "Colombia", "idioma": ["Español"], "continente": "América" },
+  { "pais": "San Marino", "idioma": ["Italiano"], "continente": "Europa" },
+  { "pais": "Vaticano", "idioma": ["Italiano"], "continente": "Europa" },
+  {
+    "pais": "Suiza",
+    "idioma": ["Italiano", "Alemán", "Francés"],
+    "continente": "Europa"
+  },
+  { "pais": "Eslovenia", "idioma": ["Italiano"], "continente": "Europa" },
+  { "pais": "Croacia", "idioma": ["Italiano"], "continente": "Europa" },
+  {
+    "pais": "Malta",
+    "idioma": ["Italiano", "Maltés", "Inglés"],
+    "continente": "Europa"
+  },
+  { "pais": "Argentina", "idioma": ["Español"], "continente": "América" }
+]
