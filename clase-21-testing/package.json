@@ -1,0 +1,19 @@
+{
+  "name": "node-js-mongo-db",
+  "version": "1.0.0",
+  "description": "Conexión de Express JS con MongoDB Clúster y uso de Express Router.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --watch ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.2.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
