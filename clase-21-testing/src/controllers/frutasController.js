@@ -69,13 +69,15 @@ async function getFrutaPorImporte(req, res) {
 
 async function crearFruta(req, res) {
   const nuevaFruta = req.body; //la fruta viene en el body
-  if (nuevaFruta === undefined) {
-    res.status(400).send("Error en el formato de datos a crear.");
+  // console.log(req.body);
+  // if (nuevaFruta === undefined) {
+  if (nuevaFruta === undefined || Object.keys(req.body).length == 0) {
+    return res.status(400).send("Error en el formato de datos a crear.");
   }
 
   const client = await connectToMongoDB();
   if (!client) {
-    res.status(500).send("Error al conectarse a MongoDB");
+    return res.status(500).send("Error al conectarse a MongoDB");
   }
 
   const collection = client.db("frutas").collection("frutas");
