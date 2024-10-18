@@ -1,0 +1,28 @@
+{
+  "name": "sequelize-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "node --watch server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Sequelize",
+    "Mysql"
+  ],
+  "author": "Diplomatura en desarrollo backend",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0",
+    "sequelize": "^6.32.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
