@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CORS</title>
+  </head>
+  <body>
+    <script>
+      fetch("http://localhost:3000/")
+        .then((response) => response.json())
+        .then((json) => console.log(json))
+        .catch((error) => console.error(error));
+    </script>
+  </body>
+</html>
